@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid plum;
+}
+.row {
+  --bs-gutter-x: 1rem;
+  --bs-gutter-y: 0;
+
+}
+
+
+
+
+
+/* Navbar */
+.navba {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.nav {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 2px solid #e9ecef;
+  border-right: 2px solid #e9ecef;
+}
+.nav-2 {
+  margin-right: 150px;
+}
+.nav-1, .nav-3 {
+  border-right: 0;
+
+}
+
+/* Personal Information Section */
+
+
+
+#info {
+  background-color: #f1f3f5;
+}
+
+.per, .infor {
+  padding-top: 64px;
+  padding-left: 86px;
+  padding-right: 86px;
+padding-bottom: 24px;
+}
+
+.infor {
+  background-color: #e9ecef;
+}
+
+
+
+/* Background-color Personal Information Section */
+.bg-warning {
+  background-color: #f1f3f5 !important;
+}
+.bg-info {
+  background-color: #e9ecef !important;
+}
+
+/* Color */
+/* Muốn thay đổi rule nào thì làm tương tự vậy nhé */
+/* .bg-primary {
+  background-color: green !important;
+} */
+
+/* <!-- Career Information section --> */
+
+/* <!-- Certificate --> */
+
+.cer-1, .cer-3 {
+  padding-right: 12px;
+  
+}
+.cer-2 {
+  padding-left: 12px;
+  border-left: 2px solid #d6c08d;
+}
+
+.cer-row-1 {
+  border-bottom: 2px solid #d6c08d;
+  margin-bottom: 18px;
+}
+
+/* <!-- Project --> */
+
+th {
+width: 90px;
+}
+table {
+  height: 270px;
+}
+
+
+
+
+
+
+
+
+/* Create a dot for Career Information section */
+h4 {
+  position: relative;
+}
+h4::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -20px;
+  background-color: #1c7ed6;
+  border: 1px solid #dee2e6;
+  top: 5px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.edu-1 h4 {
+  position: relative;
+}
+.edu-1 h4::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -25px;
+  background-color: #1c7ed6;
+  border: 1px solid #dee2e6;
+  top: 2px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.act-1 h4 {
+  position: relative;
+}
+.act-1 h4::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -25px;
+  background-color: #1c7ed6;
+  border: 1px solid #dee2e6;
+  top: 2px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* create lines for Certificate  */

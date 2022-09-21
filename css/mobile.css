@@ -1,0 +1,62 @@
+@media (max-width: 576px) {
+  .navba {
+    display: block;
+  }
+  .personal-image {
+    display: none;
+   }
+  .nav {
+    border: none;
+    margin-left: 30%;
+  }
+ /* Personal Information Section */
+
+#info {
+  background-color: #f1f3f5;
+}
+.per, .infor {
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 24px;
+padding-bottom: 12px;
+}
+
+/* <!-- Career Information section --> */
+#job-info {
+  margin-top: 36px;
+}
+
+
+
+#cer-light {
+  display: none !important;
+}
+
+.cer-img 
+{--bs-gutter-y: 0rem;}
+
+.cer-1, .cer-3 {
+  padding-right: 0px;
+  
+}
+.cer-2 {
+  padding-left: 0px;
+  border-left: 0px solid #d6c08d;
+}
+
+.cer-1, .cer-2, .cer-3 {
+  padding-top: 0px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #d6c08d;
+}
+.cer-row-1 {
+  border-bottom: 0px solid #d6c08d;
+  margin-bottom: 0px;
+}
+
+/* Project */
+#project {
+  margin-top: 32px;
+}
+}
+

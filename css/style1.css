@@ -1,0 +1,40 @@
+.bg-warning {
+  background-color: #b197fc !important;
+}
+
+#column-3 p {
+  margin-block-end: 0;
+}
+.item-04 {
+  padding-bottom: 36px;
+}
+
+.item-07 {
+  padding-bottom: 19px;
+}
+
+.item-scopes {
+  padding-bottom: 26px;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .team-flex {
+    display: flex;
+    
+  }
+.team-flex-1 {
+  margin-right: 100px;
+}
+#column-3 {
+  margin-top: 0;
+}
+
+}
+
+
+@media (max-width: 576px) {
+  #column-3 {
+    margin-top: 0;
+  }
+}
